@@ -1,11 +1,11 @@
 # Loan Status Prediction and Credit Risk Assessment
 
-### Introduction
+## Introduction
 This project focuses on developing a robust machine learning model to predict loan status and assess credit risk using a comprehensive dataset of Lending Club loan applications. It highlights advanced data preprocessing techniques, with a particular emphasis on leveraging modern natural language processing (NLP) methods for textual features.
 
 The core objective is to build a predictive model that can classify loan applications into different statuses (e.g., "Fully Paid", "Charged Off", "Current") at the time of application. This involves transforming raw, heterogeneous loan data into a suitable format for machine learning algorithms and then training and evaluating a classification model.
 
-### Key Features & Components
+## Key Features & Components
 
 __Comprehensive Data Preprocessing:__
 
@@ -37,6 +37,8 @@ __Model Evaluation:__
 
 Rigorous evaluation of the model's performance using appropriate classification metrics (e.g., Accuracy, Precision, Recall, F1-score, ROC-AUC) to assess its predictive capability and generalization.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 🚀 Dataset 
 The project utilizes a dataset of Lending Club loan applications. This dataset contains a mix of numerical, categorical, and textual features describing applicant demographics, financial history, loan characteristics, and the ultimate loan status.
@@ -59,6 +61,7 @@ Outliers: Several key risk indicators (delinq_2y, num_historical_failed_to_pay, 
 
 Multivariate Analysis: Revealed strong correlations between loan_amount and installment, and surprisingly, a trend of higher loan amounts for lower credit grades (A-G). Loan purpose also significantly influenced loan amount distribution.
 
+
 ⏭️ Future Work
 Hyperparameter Tuning: Implement more extensive hyperparameter tuning for the Random Forest Classifier and potentially other models.
 
@@ -68,7 +71,9 @@ Model Interpretability: Deep dive into SHAP or LIME for more granular model expl
 
 Model Monitoring: Monitor of model performance every six months to detect data drift.
 
-### Built with 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Built with 
 This project is built using `Python 3.12` and relies on several key libraries for its functionality, including `torch` for deep learning model development, `pandas` and `numpy` for efficient data manipulation and numerical operations, and `scikit-learn` for various machine learning utilities such as data splitting and performance evaluation. 
 All necessary dependencies can be installed via pip using the command: `pip install torch pandas numpy scikit-learn sklearn`.
 <p align="left">
@@ -76,6 +81,8 @@ All necessary dependencies can be installed via pip using the command: `pip inst
     <img src="https://skillicons.dev/icons?i=sklearn,anaconda" />
   </a>
 </p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
