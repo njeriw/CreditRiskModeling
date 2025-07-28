@@ -5,6 +5,8 @@ This project focuses on developing a robust machine learning model to predict lo
 
 The core objective is to build a predictive model that can classify loan applications into different statuses (e.g., "Fully Paid", "Charged Off", "Current") at the time of application. This involves transforming raw, heterogeneous loan data into a suitable format for machine learning algorithms and then training and evaluating a classification model.
 
+The project utilizes a dataset of Lending Club loan applications. This dataset contains a mix of numerical, categorical, and textual features describing applicant demographics, financial history, loan characteristics, and the ultimate loan status.
+
 ## Key Features & Components
 
 __Comprehensive Data Preprocessing:__
@@ -40,11 +42,7 @@ Rigorous evaluation of the model's performance using appropriate classification 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-🚀 Dataset 
-The project utilizes a dataset of Lending Club loan applications. This dataset contains a mix of numerical, categorical, and textual features describing applicant demographics, financial history, loan characteristics, and the ultimate loan status.
-
-
-📈 Results & Insights
+## Results & Insights 📈 
 Data Structure: The dataset comprises approximately 10,000 samples and 55 features, with a mix of numerical and object (categorical/text) data types.
 
 Target Imbalance: The loan_status target variable exhibited a severe class imbalance (mode is "Current"), which will require careful handling during model training (e.g., sampling techniques, appropriate loss functions).
@@ -62,7 +60,7 @@ Outliers: Several key risk indicators (delinq_2y, num_historical_failed_to_pay, 
 Multivariate Analysis: Revealed strong correlations between loan_amount and installment, and surprisingly, a trend of higher loan amounts for lower credit grades (A-G). Loan purpose also significantly influenced loan amount distribution.
 
 
-⏭️ Future Work
+## Future Work ⏭️
 Hyperparameter Tuning: Implement more extensive hyperparameter tuning for the Random Forest Classifier and potentially other models.
 
 Class Imbalance Handling: Implement specific strategies to address the class imbalance in the target variable (e.g., SMOTE, undersampling).
@@ -72,6 +70,7 @@ Model Interpretability: Deep dive into SHAP or LIME for more granular model expl
 Model Monitoring: Monitor of model performance every six months to detect data drift.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Built with 
 This project is built using `Python 3.12` and relies on several key libraries for its functionality, including `pandas` and `numpy` for efficient data manipulation and numerical operations, and `scikit-learn` for various machine learning utilities such as data splitting and performance evaluation. 
