@@ -73,7 +73,7 @@ This project is built using `Python 3.12` and relies on several key libraries fo
 All necessary dependencies can be installed via pip using the command: `pip install torch pandas numpy scikit-learn sklearn`.
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,sklearn,anaconda,pandas,numpy" />
+    <img src="https://skillicons.dev/icons?i=sklearn,anaconda" />
   </a>
 </p>
 
