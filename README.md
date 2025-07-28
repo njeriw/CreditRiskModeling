@@ -1,5 +1,7 @@
 # Loan Status Prediction and Credit Risk Assessment
 
+![960x0](https://github.com/user-attachments/assets/48b11bb4-739f-4c54-b4b1-5709e55033e2)
+
 ## Introduction
 This project focuses on developing a robust machine learning model to predict loan status and assess credit risk using a comprehensive dataset of Lending Club loan applications. It highlights advanced data preprocessing techniques, with a particular emphasis on leveraging modern natural language processing (NLP) methods for textual features.
 
