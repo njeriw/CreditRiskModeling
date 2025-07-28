@@ -74,7 +74,7 @@ Model Monitoring: Monitor of model performance every six months to detect data d
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built with 
-This project is built using `Python 3.12` and relies on several key libraries for its functionality, including `torch` for deep learning model development, `pandas` and `numpy` for efficient data manipulation and numerical operations, and `scikit-learn` for various machine learning utilities such as data splitting and performance evaluation. 
+This project is built using `Python 3.12` and relies on several key libraries for its functionality, including `pandas` and `numpy` for efficient data manipulation and numerical operations, and `scikit-learn` for various machine learning utilities such as data splitting and performance evaluation. 
 All necessary dependencies can be installed via pip using the command: `pip install torch pandas numpy scikit-learn sklearn`.
 <p align="left">
   <a href="https://skillicons.dev">
