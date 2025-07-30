@@ -3,7 +3,7 @@
 ![960x0](https://github.com/user-attachments/assets/48b11bb4-739f-4c54-b4b1-5709e55033e2)
 
 ## Introduction
-This project focuses on developing a robust machine learning model to predict loan status and assess credit risk using a comprehensive dataset of Lending Club loan applications. It highlights advanced data preprocessing techniques, with a particular emphasis on leveraging modern natural language processing (NLP) methods for textual features.
+This project focuses on developing a robust machine learning model to predict loan status using a comprehensive dataset of Lending Club loan applications. It highlights advanced data preprocessing techniques, with a particular emphasis on leveraging modern natural language processing (NLP) methods for textual features.
 
 The core objective is to build a predictive model that can classify loan applications into different statuses (e.g., "Fully Paid", "Charged Off", "Current") at the time of application. This involves transforming raw, heterogeneous loan data into a suitable format for machine learning algorithms and then training and evaluating a classification model.
 
